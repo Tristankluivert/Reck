@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "940808003354",
+    "firebase_url": "https://reck-bbf72.firebaseio.com",
+    "project_id": "reck-bbf72",
+    "storage_bucket": "reck-bbf72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940808003354:android:ef93ba044521e390",
+        "android_client_info": {
+          "package_name": "ng.com.hybrid.reck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940808003354-547qbtsaub0slue94k3m1alc98q75lkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ng.com.hybrid.reck",
+            "certificate_hash": "faa3756ac1c5be0a9f45d72a05e4915ca83c857b"
+          }
+        },
+        {
+          "client_id": "940808003354-3s36g572fes9joo4i900u82rih2b3q9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYsH5MvrkmHnziVBsLJ8PA_8GNRIYfonI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940808003354-3s36g572fes9joo4i900u82rih2b3q9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

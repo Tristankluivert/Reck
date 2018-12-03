@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:cardElevation="30dp"
+        >
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+    app:civ_border_width="2dp"
+    android:src="@drawable/signuescalator"
+    android:id="@+id/postimage"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="30dp"
+    />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/postlabel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service"
+            android:layout_gravity="left"
+            android:layout_marginTop="130dp"
+            android:id="@+id/postservice"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_gravity="left"
+            android:layout_marginTop="160dp"
+            android:id="@+id/postlocation"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:layout_gravity="left"
+            android:layout_marginTop="190dp"
+            android:id="@+id/postprice"
+            />
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
